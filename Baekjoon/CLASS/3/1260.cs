@@ -54,7 +54,6 @@ namespace baekjoon
             int start = V;
             while (queue.Count != 0)
             {
-                //큐에서 나오는 값을 시작변수로 계속 바꿔줘야함
                 start = queue.Dequeue();
                 Console.Write(start + " ");
                 for (int i = 1; i <= N; i++)
